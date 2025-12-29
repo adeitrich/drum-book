@@ -109,12 +109,12 @@
       \stemUp
       \override Voice.Stem.stencil = ##f
       \mark \markup { \box "E" }
-      \bar "[|:"
+      \bar ".|:"
       cl4 cl cl cl | cl cl cl cl 
       \mark \markup { \box \concat { E \super 2 } }
-      \bar ":|][|:"
+      \bar ":||:"
       cl4 cl cl cl | cl cl cl cl
-      \bar ":|]"
+      \bar ":|."
       }
       }
     \new DrumVoice
@@ -136,12 +136,12 @@
       \stemUp
       \override Voice.Stem.stencil = ##f
       \mark \markup { \box "F" }
-      \bar "[|:"
+      \bar ".|:"
       cl4 cl cl cl | cl cl cl cl 
       \mark \markup { \box \concat { F \super 2 } }
-      \bar ":|][|:"
+      \bar ":||:"
       cl4 cl cl cl | cl cl cl cl
-      \bar ":|]"
+      \bar ":|."
       }
       }
     \new DrumVoice
@@ -172,12 +172,12 @@
       \stemUp
       \override Voice.Stem.stencil = ##f
       \mark \markup { \box "G" }
-      \bar "[|:"
+      \bar ".|:"
       cl4 cl cl cl | cl cl cl cl 
       \mark \markup { \box \concat { G \super 2 } }
-      \bar ":|][|:"
+      \bar ":||:"
       cl4 cl cl cl | cl cl cl cl
-      \bar ":|]"
+      \bar ":|."
       }
       }
     \new DrumVoice
@@ -199,12 +199,12 @@
       \stemUp
       \override Voice.Stem.stencil = ##f
       \mark \markup { \box H }
-      \bar "[|:"
+      \bar ".|:"
       cl4 cl cl cl | cl cl cl cl 
       \mark \markup { \box \concat { H \super 2 } }
-      \bar ":|][|:"
+      \bar ":||:"
       cl4 cl cl cl | cl cl cl cl
-      \bar ":|]"
+      \bar ":|."
       }
       }
     \new DrumVoice
@@ -226,12 +226,12 @@
       \stemUp
       \override Voice.Stem.stencil = ##f
       \mark \markup { \box "I" }
-      \bar "[|:"
+      \bar ".|:"
       cl4 cl cl cl | cl cl cl cl 
       \mark \markup { \box "J" }
-      \bar ":|][|:"
+      \bar ":||:"
       cl4 cl cl cl | cl cl cl cl
-      \bar ":|]"
+      \bar ":|."
       }
       }
     \new DrumVoice
