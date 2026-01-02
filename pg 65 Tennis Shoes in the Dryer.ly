@@ -41,9 +41,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {bd8 \tweak stencil #circle tommh \tweak stencil #circle toml}} bd4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -67,9 +67,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {bd8 \tweak stencil #circle toml \tweak stencil #circle tommh}} bd4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -93,7 +93,7 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \tuplet 3/2 {bd8 \tweak stencil #circle toml \tweak stencil #circle tommh}
           \tuplet 3/2 {bd8 \tweak stencil #circle tommh \tweak stencil #circle toml}
           \tuplet 3/2 {bd8 \tweak stencil #circle toml \tweak stencil #circle tommh}
@@ -102,7 +102,7 @@
           \tuplet 3/2 {bd8 \tweak stencil #circle toml \tweak stencil #circle tommh}
           \tuplet 3/2 {bd8 \tweak stencil #circle tommh \tweak stencil #circle toml}
           \tuplet 3/2 {bd8 \tweak stencil #circle tommh \tweak stencil #circle toml}
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -126,9 +126,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {\tweak stencil #circle tommh8 \tweak stencil #circle toml bd}} bd4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -152,9 +152,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {\tweak stencil #circle toml8 \tweak stencil #circle tommh bd}} bd4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -178,7 +178,7 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \tuplet 3/2 {\tweak stencil #circle toml8 \tweak stencil #circle tommh bd}
           \tuplet 3/2 {\tweak stencil #circle tommh8 \tweak stencil #circle toml bd}
           \tuplet 3/2 {\tweak stencil #circle toml8 \tweak stencil #circle tommh bd}
@@ -187,7 +187,7 @@
           \tuplet 3/2 {\tweak stencil #circle toml8 \tweak stencil #circle tommh bd}
           \tuplet 3/2 {\tweak stencil #circle tommh8 \tweak stencil #circle toml bd}
           \tuplet 3/2 {\tweak stencil #circle tommh8 \tweak stencil #circle toml bd}
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -211,9 +211,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {\tweak stencil #circle tommh8 bd \tweak stencil #circle toml}} \tweak stencil #circle tommh4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -237,9 +237,9 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat unfold 3 {\tuplet 3/2 {\tweak stencil #circle toml8 bd \tweak stencil #circle tommh}} \tweak stencil #circle toml4
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -263,7 +263,7 @@
       \new DrumVoice {
         \drummode {
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \tuplet 3/2 {\tweak stencil #circle toml8 bd \tweak stencil #circle toml}
           \tuplet 3/2 {\tweak stencil #circle tommh8 bd \tweak stencil #circle tommh}
           \tuplet 3/2 {\tweak stencil #circle toml8 bd \tweak stencil #circle tommh}
@@ -272,7 +272,7 @@
           \tuplet 3/2 {\tweak stencil #circle toml8 bd \tweak stencil #circle toml}
           \tuplet 3/2 {\tweak stencil #circle tommh8 bd \tweak stencil #circle toml}
           \tuplet 3/2 {\tweak stencil #circle tommh8 bd \tweak stencil #circle tommh}
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
@@ -297,12 +297,12 @@
         \drummode {
           \time 2/4
           \stemUp
-          \bar "[|:"
+          \bar ".|:"
           \repeat percent 2 {\repeat unfold 2 {\tuplet 3/2 {bd sn \tweak stencil #circle tommh}}}
           \repeat percent 2 {\repeat unfold 2 {\tuplet 3/2 {bd \tweak stencil #circle tommh \tweak stencil #circle toml}}}
           \repeat percent 2 {\repeat unfold 2 {\tuplet 3/2 {bd sn \tweak stencil #circle toml}}}
           bd8. bd16 \acciaccatura sn8( sn16) sn16 hho8
-          \bar ":|]"
+          \bar ":|."
         }
       }
     >>
